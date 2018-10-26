@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.loadso.MainActivity">
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:text="result:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="helloworld so:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/loadhelloworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/unloadhelloworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unload"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="336dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hellocolor so:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loadhellocolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="load"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="457dp" />
+
+        <Button
+            android:id="@+id/unloadhellocolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unload"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="457dp" />
+    </LinearLayout>
+
+</LinearLayout>
